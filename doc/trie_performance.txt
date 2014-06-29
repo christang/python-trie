@@ -1,0 +1,96 @@
+
+n=10000 w=25, l=20
+DictTrie(n, t_cpu, mem)
+      2   0.0000      skipped
+      4   0.0001      skipped
+      8   0.0001      skipped
+     16   0.0002      skipped
+     32   0.0003      skipped
+     64   0.0012      skipped
+    128   0.0020      skipped
+    256   0.0031      skipped
+    512   0.0070      skipped
+   1024   0.0124      skipped
+   2048   0.0229      skipped
+   4096   0.0447      skipped
+   8192   0.1062      skipped
+   9999   0.1245   47,564,560
+ListTrie(n, t_cpu, mem)
+      2   0.0001      skipped
+      4   0.0002      skipped
+      8   0.0003      skipped
+     16   0.0006      skipped
+     32   0.0017      skipped
+     64   0.0027      skipped
+    128   0.0048      skipped
+    256   0.0100      skipped
+    512   0.0190      skipped
+   1024   0.0373      skipped
+   2048   0.0745      skipped
+   4096   0.2883      skipped
+   8192   0.4906      skipped
+   9999   0.5573   35,689,240
+
+n=10000 w=2, l=20
+DictTrie(n, t_cpu, mem)
+      2   0.0000      skipped
+      4   0.0001      skipped
+      8   0.0001      skipped
+     16   0.0002      skipped
+     32   0.0003      skipped
+     64   0.0011      skipped
+    128   0.0016      skipped
+    256   0.0026      skipped
+    512   0.0039      skipped
+   1024   0.0078      skipped
+   2048   0.0134      skipped
+   4096   0.0238      skipped
+   8192   0.0467      skipped
+   9999   0.0574   19,145,720
+ListTrie(n, t_cpu, mem)
+      2   0.0001      skipped
+      4   0.0002      skipped
+      8   0.0003      skipped
+     16   0.0005      skipped
+     32   0.0015      skipped
+     64   0.0024      skipped
+    128   0.0041      skipped
+    256   0.0075      skipped
+    512   0.0151      skipped
+   1024   0.0287      skipped
+   2048   0.0555      skipped
+   4096   0.1087      skipped
+   8192   0.2832      skipped
+   9999   0.3309   14,939,120
+
+n=10000 w=5, l=100
+DictTrie(n, t_cpu, mem)
+      2   0.0001      skipped
+      4   0.0001      skipped
+      8   0.0010      skipped
+     16   0.0013      skipped
+     32   0.0018      skipped
+     64   0.0029      skipped
+    128   0.0065      skipped
+    256   0.0112      skipped
+    512   0.0213      skipped
+   1024   0.1287      skipped
+   2048   0.2098      skipped
+   4096   0.4161      skipped
+   8192   0.9158      skipped
+   9999   1.0016  263,304,600
+ListTrie(n, t_cpu, mem)
+      2   0.0004      skipped
+      4   0.0013      skipped
+      8   0.0019      skipped
+     16   0.0032      skipped
+     32   0.0055      skipped
+     64   0.0109      skipped
+    128   0.0197      skipped
+    256   0.0379      skipped
+    512   0.0745      skipped
+   1024   0.1529      skipped
+   2048   1.1605      skipped
+   4096   1.5861      skipped
+   8192   2.4287      skipped
+   9999   2.8128  196,317,960
