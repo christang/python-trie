@@ -41,7 +41,7 @@ class ListTrie:
     def incr_trie(lst, keys):
 
         def search(lst, key, on_found, on_not_found):
-            i = bisect.bisect_left([t[0] for t in lst], key)
+            i = bisect.bisect_left(lst, (key,))
             if i != len(lst) and lst[i][0] == key: 
                 return on_found(lst, i, key)
             else:
